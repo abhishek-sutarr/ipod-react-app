@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  background: #dcdcdc;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.ipod {
+  width: 320px;
+  height: 550px;
+  background: #f3f3f3;
+  margin: 30px auto;
+  border-radius: 30px;
+  box-shadow: 0 0 20px gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screen {
+  width: 280px;
+  height: 220px;
+  margin-top: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+.menu {
+  text-align: left;
+}
+
+.menu h3 {
+  margin-left: 15px;
+}
+
+.menu-item {
+  padding: 12px;
+}
+
+.active {
+  background: dodgerblue;
+  color: white;
+}
+
+.screen-content {
+  width: 280px;
+  height: 220px;
+  background: white;
+  margin-top: 20px;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wheel {
+  margin-top: 40px;
+  width: 250px;
+  height: 250px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+}
+
+.center-btn {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: none;
+  background: #d3d3d3;
+
+  position: absolute;
+  top: 80px;
+  left: 80px;
+
+  cursor: pointer;
+}
+
+.menu-btn {
+  position: absolute;
+  top: 20px;
+  left: 95px;
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.left-btn {
+  position: absolute;
+  left: 10px;
+  top: 115px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.right-btn {
+  position: absolute;
+  right: 10px;
+  top: 115px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.bottom-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 118px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
